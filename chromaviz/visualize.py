@@ -83,6 +83,10 @@ def data_api():
         points.append(point)
     return json.dumps({'points': points})
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_file('favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 client = chromadb.HttpClient()
 
 def visualize_collection(col: chromadb.api.models.Collection.Collection):

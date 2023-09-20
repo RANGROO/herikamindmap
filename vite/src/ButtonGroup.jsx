@@ -19,13 +19,13 @@ const ButtonGroup = (settings) => {
     return (
       <div className="button-group">
         <button className={`btn ${settings.settings[0].showDocuments ? 'active' : ''}`} onClick={handleToggleDocuments}>
-          docs
+          Info
         </button>
         <button className={`btn ${settings.settings[0].showMetadata  ? 'active' : ''}`} onClick={handleToggleMetadata}>
-          metadata
+          MetaData
         </button>
         <button className={`btn ${settings.settings[0].showLines ? 'active' : ''}`} onClick={handleToggleLines}>
-          lines
+          Connections
         </button>
       </div>
     );

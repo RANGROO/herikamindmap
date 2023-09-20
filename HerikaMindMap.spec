@@ -34,6 +34,7 @@ exe = EXE(
     strip=False,
     upx=True,
     upx_exclude=[],
+    icon='app.ico',
     runtime_tmpdir=None,
     console=True,
     disable_windowed_traceback=False,

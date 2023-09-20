@@ -4,7 +4,7 @@ const Footer = ({ settings }) => {
   return(
     <div className="footer">
       <ButtonGroup settings={settings} />
-      <h4>chroma visualizer 0.0.2</h4>
+      <h4>Herika Mind Map</h4>
     </div>
   )
 }

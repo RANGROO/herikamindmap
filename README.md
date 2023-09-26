@@ -8,6 +8,9 @@ Built on top of ChromaViz: https://github.com/mtybadger/chromaviz/tree/main
 Will only work if you have generated at least 50 memories with Herika.
 You will need to restart the application for new memories to appear. 
 
+![alt text](https://i.imgur.com/l7CK5HF.png)
+[alt text](https://i.imgur.com/6wUFRj4.png)
+
 **To Build:**
 pyinstaller HerikaMindMap.spec
 
